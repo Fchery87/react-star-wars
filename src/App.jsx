@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
 import { getAllStarships } from './services/sw-api';
 import StarshipCard from './components/StarshipCard';
-import './App.css'; // Ensure you have this import if you have global styles
-import banner from './assets/Starwars-starships.png'; // Import the image
+import './App.css'; 
+import banner from './assets/Starwars-starships.png'; 
 
 function App() {
   const [starships, setStarships] = useState([]);
