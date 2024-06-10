@@ -1,7 +1,8 @@
-import './App.css'
 import { useState, useEffect } from 'react';
 import { getAllStarships } from './services/sw-api';
 import StarshipCard from './components/StarshipCard';
+import './App.css'; // Ensure you have this import if you have global styles
+import banner from './assets/Starwars-starships.png'; // Import the image
 
 function App() {
   const [starships, setStarships] = useState([]);
@@ -27,7 +28,8 @@ function App() {
 
   return (
     <div>
-      <header>
+      <header className="app-header">
+        <img src={banner} alt="Star Wars Starships" className="header-banner" />
         <h1>Star Wars Starships</h1>
       </header>
       <main>
@@ -47,9 +49,3 @@ function App() {
 }
 
 export default App;
-
-
-
-
-
-
