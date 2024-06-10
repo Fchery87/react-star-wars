@@ -58,8 +58,8 @@
   }
   
   .starship-card {
-    background-color: #0b294d;
-    color: #ecf0f1;
+    background-color: #e4dbbc;
+    color: #0b294d;
     padding: 1rem;
     border-radius: 5px;
     text-align: center;
@@ -83,7 +83,11 @@
   .dropdown-icon {
     font-size: 2rem; /* Adjust the size as needed */
     transition: transform 0.3s ease;
-    color: #e54126;
+  }
+
+  .dropdown-icon:hover {
+    color: #e54126
+    
   }
   
   .dropdown-icon.open {
@@ -91,7 +95,7 @@
   }
   
   .load-more {
-    background-color: #e54126;
+    background-color: #0b294d;
     color: #fff;
     padding: 0.5rem 1rem;
     border: none;
@@ -102,7 +106,7 @@
   }
   
   .load-more:hover {
-    background-color: #555;
+    background-color: #e54126;
   }
   
   /* Media Queries */
