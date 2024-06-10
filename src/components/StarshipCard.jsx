@@ -3,8 +3,11 @@ import PropTypes from 'prop-types';
 import { RiArrowDropDownLine } from 'react-icons/ri';
 
 function StarshipCard({ starship }) {
+
+  // state to keep track if the card is open or not
   const [isOpen, setIsOpen] = useState(false);
 
+  // function to toggle the open state
   const toggleOpen = () => {
     setIsOpen(!isOpen);
   };
@@ -26,6 +29,7 @@ function StarshipCard({ starship }) {
   );
 }
 
+// PropTypes to make sure we're getting the right props
 StarshipCard.propTypes = {
   starship: PropTypes.shape({
     name: PropTypes.string.isRequired,

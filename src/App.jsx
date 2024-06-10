@@ -31,10 +31,8 @@ function App() {
 
   return (
     <div>
-      {/* Header with the banner and title */}
       <header className='app-header'>
         <img src={banner} alt='Star Wars Starships' className='header-banner' />
-        {/* <h1>Star Wars Starships</h1> */}
       </header>
       <main>
         {/* Where the starship cards are shown */}
