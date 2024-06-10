@@ -30,7 +30,7 @@ function App() {
     <div>
       <header className="app-header">
         <img src={banner} alt="Star Wars Starships" className="header-banner" />
-        <h1>Star Wars Starships</h1>
+        {/* <h1>Star Wars Starships</h1> */}
       </header>
       <main>
         <div className="starship-container">
