@@ -37,7 +37,7 @@
     padding: 0.5rem 1rem;
     background: rgba(0, 0, 0, 0.5);
     border-radius: 5px;
-    font-size: 2rem; /* Default font size for larger screens */
+    font-size: 2rem; 
   }
   
   main {
@@ -82,7 +82,7 @@
   }
   
   .dropdown-icon {
-    font-size: 2rem; /* Adjust the size as needed */
+    font-size: 2rem; 
     transition: transform 0.3s ease;
   }
   
