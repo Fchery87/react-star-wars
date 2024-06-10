@@ -34,9 +34,10 @@
     left: 50%;
     transform: translate(-50%, -50%);
     margin: 0;
-    padding: 0.5rem;
+    padding: 0.5rem 1rem;
     background: rgba(0, 0, 0, 0.5);
     border-radius: 5px;
+    font-size: 2rem; /* Default font size for larger screens */
   }
   
   main {
@@ -84,10 +85,9 @@
     font-size: 2rem; /* Adjust the size as needed */
     transition: transform 0.3s ease;
   }
-
+  
   .dropdown-icon:hover {
-    color: #e54126
-    
+    color: #e54126;
   }
   
   .dropdown-icon.open {
@@ -109,36 +109,5 @@
     background-color: #e54126;
   }
   
-  /* Media Queries */
-  @media (max-width: 768px) {
-    header {
-      font-size: 1.5rem;
-    }
   
-    .starship-card {
-      font-size: 0.9rem;
-      padding: 0.75rem;
-    }
-  
-    .load-more {
-      font-size: 0.9rem;
-      padding: 0.5rem 0.75rem;
-    }
-  }
-  
-  @media (max-width: 480px) {
-    header {
-      font-size: 1.2rem;
-    }
-  
-    .starship-card {
-      font-size: 0.8rem;
-      padding: 0.5rem;
-    }
-  
-    .load-more {
-      font-size: 0.8rem;
-      padding: 0.5rem 0.5rem;
-    }
-  }
   
