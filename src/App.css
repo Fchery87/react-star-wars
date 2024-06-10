@@ -58,7 +58,7 @@
   }
   
   .starship-card {
-    background-color: #2c3e50;
+    background-color: #0b294d;
     color: #ecf0f1;
     padding: 1rem;
     border-radius: 5px;
@@ -83,6 +83,7 @@
   .dropdown-icon {
     font-size: 2rem; /* Adjust the size as needed */
     transition: transform 0.3s ease;
+    color: #e54126;
   }
   
   .dropdown-icon.open {
@@ -90,7 +91,7 @@
   }
   
   .load-more {
-    background-color: #333;
+    background-color: #e54126;
     color: #fff;
     padding: 0.5rem 1rem;
     border: none;
